@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
-    <option name="enabledOnReformat" value="true" />
-    <option name="enabledOnSave" value="true" />
-    <option name="sdkUUID" value="bd935e0e-063d-42a6-ba4b-c756d134ac72" />
+    <option name="executionMode" value="BINARY" />
+    <option name="sdkUUID" value="d65b11b0-532b-44e2-b2a1-194386361f5d" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (carros)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10.6 WSL (Ubuntu): (/home/ragnelli/.virtualenvs/pythonProject/bin/python)" project-jdk-type="Python SDK" />
 </project>
