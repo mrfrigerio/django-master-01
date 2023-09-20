@@ -1,7 +1,8 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.decorators.http import require_http_methods
 
+from cars.forms import CarModelForm
 from cars.models import Car
 
 
@@ -20,4 +21,11 @@ def cars_view(request):
 
 
 def new_car_view(request):
-    return 'Novo Carro'
+    if request.method == "POST":
+        new_car_form = CarModelForm(request.POST, request.FILES)
+        if new_car_form.is_valid():
+            new_car_form.save()
+            return redirect('cars_list')
+    else:
+        new_car_form = CarModelForm()
+    return render(request, template_name="new_car.html", context={"new_car_form": new_car_form})
