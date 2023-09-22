@@ -16,7 +16,7 @@ def cars_view(request):
             "model"
         )
     else:
-        cars = Car.objects.all().order_by().order_by("-model")
+        cars = Car.objects.all().order_by("-model")
     return render(request, template_name="cars.html", context={"cars": cars})
 
 

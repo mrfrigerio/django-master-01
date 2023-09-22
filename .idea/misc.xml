@@ -4,5 +4,5 @@
     <option name="executionMode" value="BINARY" />
     <option name="sdkUUID" value="d65b11b0-532b-44e2-b2a1-194386361f5d" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (carros)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10.12 WSL (Ubuntu): (/home/ragnelli/projects/django/django-master-01\venv/bin/python)" project-jdk-type="Python SDK" />
 </project>
